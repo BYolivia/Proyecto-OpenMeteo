@@ -1,10 +1,10 @@
 {
-  "id": "5afebf6e-1735-441e-a453-2a4615770138",
-  "name": "OpenMeteo",
-  "publisher": "Fila_1",
-  "description": "Integrantes: Mireya, Luka, Adrian Nicolas y Josep",
+  "id": "9e9579f0-dc55-4edd-9864-8ff3058d55cc",
+  "name": "Sincronizacion Clima MBC",
+  "publisher": "Grupo Practica 5",
   "version": "1.0.0.0",
-  "brief": "",
+  "brief": "Sincronización de datos de clima con OpenMeteo",
+  "description": "Práctica 5.1 - Optimización y monitorización de plantas fotovoltaicas",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -13,20 +13,19 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "25.0.0.0",
+  "application": "23.0.0.0", 
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 50301,
+      "to": 50399
     }
   ],
   "resourceExposurePolicy": {
-    "allowDebugging": false,
+    "allowDebugging": true,
     "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false,
-    "applyToDevExtension": false
+    "includeSourceInSymbolFile": false
   },
-  "runtime": "14.0",
+  "runtime": "12.0",
   "features": [
     "NoImplicitWith"
   ]
